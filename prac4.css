@@ -1,0 +1,32 @@
+/* #box{
+    height: 140px;
+    width: 140px;
+    background-color: #a73d3d;
+    margin: 20px;
+} */
+
+
+/* light dark mode */
+/* 
+#light{
+    background-color: #ffff;
+    color: #000;
+}
+#dark{
+    background-color: #000;
+    color: #ffff;
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #000;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+} */
