@@ -127,20 +127,20 @@ function asyncFunc3(dataId) {
 // });
 
  //          a real promise chain looks like (but seems complex)
- asyncFunc3(1)
- .then((res) => {
-        console.log(res);
-   return asyncFunc3(2);})
-   .then((res) => {
-   console.log(res);
-     return asyncFunc3(3);})
-   .then((res) => {
-     console.log(res);
-     return asyncFunc3(4)})
-     .then((res) => {
-       console.log(res);
-     });
-// output
+//  asyncFunc3(1)
+//  .then((res) => {
+//         console.log(res);
+//    return asyncFunc3(2);})
+//    .then((res) => {
+//    console.log(res);
+//      return asyncFunc3(3);})
+//    .then((res) => {
+//      console.log(res);
+//      return asyncFunc3(4)})
+//      .then((res) => {
+//        console.log(res);
+//      });
+// // output
 
 // ﻿
 // prac8.js:108 Data 1
